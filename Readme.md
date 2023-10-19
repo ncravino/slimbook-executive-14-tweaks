@@ -49,6 +49,38 @@ delete = insert
 
 ```
 
+### Use keyd to add easier mappings for {}[]() on an iso keyboard using the Fn layer
+
+I mapped the pt layout keys:
+ - Fn with ' and « to ( and )
+ - Fn with + and ´ to [ and ]
+ - Fn with º and ~ to { and }
+
+Note that this one is dependent on the actual layout. The input key is in ansi, but the output will have to be the correct combination for the symbol on your layout.
+E.g. in the portuguese layout { is alt-gr + 7, hence G-7 on keyd.
+
+```
+[ids]
+
+*
+
+[main]
+
+macro = layer(macro_layer)
+
+[macro_layer]
+
+delete = insert
+minus = S-8
+equal = S-9
+[ = G-8
+] = G-9
+' = G-7
+\ = G-0
+
+```
+
+
 ## Power management 
 
 ### TLP 
