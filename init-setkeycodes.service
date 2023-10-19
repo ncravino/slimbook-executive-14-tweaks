@@ -1,0 +1,10 @@
+[Unit]
+Description=Map Fn key (e078 on slimbook executive 14) to macro (120/0x112)
+
+[Service]
+Type=oneshot
+RemainAfterExit=True
+#Set 
+ExecStart=/bin/setkeycodes e078 112
+[Install]
+WantedBy=multi-user.target
