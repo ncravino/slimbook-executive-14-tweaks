@@ -1,6 +1,6 @@
 # Slimbook Executive 14 tweaks
 
-A bunch of useful tweaks for this laptop tried under Debian Trixie
+A bunch of useful tweaks for this [laptop](https://slimbook.es/en/executive-en) tried under Debian Trixie. I have the version with the 11th gen i7.
 
 ## Keyboard
 
